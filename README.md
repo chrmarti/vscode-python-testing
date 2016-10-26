@@ -3,14 +3,18 @@ See [documentation](https://github.com/DonJayamanne/pythonVSCode/wiki) for detai
 #### Prereqs
 
 * Install / update to the latest Python extension from Don
+* Install Python 3.5 and Python 2.7 (if not preinstalled with your OS)
+* Install default linter `pip install pylint`
+* Install default formatter `pip install autopep8`
 
 #### Setup
 
-* Use `Select Workspace Interpreter` to configure a Python version to run against
+* Use `Select Workspace Interpreter` to configure the Python version to run against
+  * Use setting `"python.pythonPath"` if not listed.
 
-#### Intellisense
+#### IntelliSense
 
-* Verify that Inellisense is working
+* Verify that IntelliSense is working
   * With standard libraries
   * With custom modules
 
